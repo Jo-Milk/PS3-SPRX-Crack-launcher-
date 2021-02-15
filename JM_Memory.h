@@ -6,5 +6,5 @@
 
 Crack_ReflexMw2()
 {
-  \\add missng variables here
+  //add missng variables here
 }
