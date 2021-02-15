@@ -26,3 +26,7 @@ Sneaky security might require more nops in the threads or hooks but it's easy to
 
 Hopefully this can be useful for more then just bypassing authentication of mod menus 
 
+This method avoid using assembler to patch the program instead you use C++ to read write to the executable loaded in memory.
+
+Although, using assembler patches (PPC in this case is way more stable) why? PS3 is very limited in memory usage compared to other platforms
+You'd need to allocate more memory but the ps3 doesn't have much more. 
